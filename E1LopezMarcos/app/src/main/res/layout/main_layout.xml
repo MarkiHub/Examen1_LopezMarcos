@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipping and Saving"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Original Price"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/originalInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/diezper"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="10%"
+
+            />
+
+        <Button
+            android:id="@+id/quinceper"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="15%" />
+
+        <Button
+            android:id="@+id/veinteper"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="20%" />
+
+        <Button
+            android:id="@+id/veinticincoper"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="25%" />
+
+        <Button
+            android:id="@+id/treintaper"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="30%" />
+
+        <Button
+            android:id="@+id/cuarentaper"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="40%" />
+
+    </GridLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERCENTAGE"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/porcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOTAL"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/totalV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textSize="70dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/tipB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIP" />
+
+    <Button
+        android:id="@+id/discountB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCOUNT" />
+</LinearLayout>
